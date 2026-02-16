@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 TravelMap — Diário de Viagens 3D Interativo
 
-## Getting Started
+O TravelMap é uma plataforma interativa criada para registrar, organizar e visualizar lugares visitados, viagens e roteiros através de uma experiência moderna com **mapa 3D animado**.
 
-First, run the development server:
+Inicialmente focado em Manaus - AM, mas totalmente escalável para qualquer cidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Principais Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🗺️ Mapa 3D Interativo
+- Marcadores animados para locais visitados  
+- Pré-visualização ao passar o mouse  
+- Clique no marcador abre modal com animação suave  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📍 Cadastro de Locais
+Cada local inclui:
+- Imagem principal  
+- Galeria de fotos  
+- Vídeo opcional  
+- ⭐ Nota (1–5)  
+- 📍 Endereço completo  
+- ⏰ Horário de funcionamento  
+- 📅 Data da visita  
+- 📝 História/descrição da experiência  
+- 👤 Avatares das pessoas que participaram  
 
-## Learn More
+### 🧭 Organização Estruturada
+- **Trips (Viagens)** → Jornadas completas com vibe cinematográfica  
+- **Tours (Roteiros)** → Itinerários organizados e estruturados  
+- **Places (Locais)** → Visualização individual minimalista  
+- **Suggestions (Sugestões)** → Recomendações com aspecto social  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Princípios de Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Interface minimalista e profissional  
+- Motion design com transições suaves  
+- Microinterações elegantes  
+- Espaçamento limpo e tipografia moderna  
+- Design responsivo  
+- Dark mode opcional  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Stack Sugerida
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js / React**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Mapbox GL (Mapa 3D)**
+
+---
+
+## 🎯 Objetivo
+
+O TravelMap não é apenas um registro de viagens.  
+É um arquivo digital de memórias, projetado para transformar experiências compartilhadas em uma jornada visual imersiva.
